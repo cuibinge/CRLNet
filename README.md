@@ -1,6 +1,6 @@
 # Knowledge-driven Category Representation Learning for Remote Sensing Classification of Coastal Wetlands
 
-![CRLNet](C:\Users\ASUS\Desktop\CRLNet\CRLNet\img\CRLNet.png)
+![CRLNet](.\img\CRLNet.png)
 
 ## Abstract
 
