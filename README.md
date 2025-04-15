@@ -1,6 +1,6 @@
 # Knowledge-driven Category Representation Learning for Remote Sensing Classification of Coastal Wetlands
 
-![CRLNet](.\img\CRLNet.png)
+![CRLNet](./img/CRLNet.png)
 
 ## Abstract
 
@@ -9,21 +9,23 @@ Fine-grained classification of coastal wetlands from remote sensing images is a 
 ## Directory structure
 
 ```
-├── img/               # CRLNet framework diagram
+├── geoscience knowledge graph/		# Complete coastal wetland geoscience knowledge graph
+├── img/               				# CRLNet framework diagram
+├── knowledge graph generator/		# KGG
 ├── model/             
-│   ├── CAKE.py        # CAKE model definition
-│   ├── CRLNet.py      # CRLNet model definition
-│   ├── GLSE.py        # GLSE model definition
-│   ├── model_utils.py # Model auxiliary functions and tools
-│   └── STRE.py        # STRE model definition
-├── subG/              # Subgraphs of knowledge graphs for use
-│   ├── Attribute.csv  # Attribute relation subgraph
-│   └── Spatial.csv    # Spatial relation subgraph
+│   ├── CAKE.py        				# CAKE model definition
+│   ├── CRLNet.py      				# CRLNet model definition
+│   ├── GLSE.py        				# GLSE model definition
+│   ├── model_utils.py 				# Model auxiliary functions and tools
+│   └── STRE.py        				# STRE model definition
+├── subG/              				# Subgraphs of knowledge graphs for use
+│   ├── Attribute.csv  				# Attribute relation subgraph
+│   └── Spatial.csv    				# Spatial relation subgraph
 ├── utils/             
-│   └── Dataset.py     # Dataset loading tool
-├── README.md          # Project description document
-├── requirements.txt   # List of Python packages that the project depends on
-└── train.py
+│   └── Dataset.py     				# Dataset loading tool
+├── README.md          				# Project description document
+├── requirements.txt   				# List of Python packages that the project depends on
+└── train_test.py
 ```
 
 ## Installation
@@ -31,6 +33,14 @@ Fine-grained classification of coastal wetlands from remote sensing images is a 
 ````
 pip install -r requirements.txt
 ````
+
+## Training and testing
+
+We integrate model training, testing and large-scale remote sensing image inference into train_test.py. You only need to set the relevant paths such as the training set and validation set.
+
+```
+python train.py --image_path cut_train_images --label_path cut_train_labels --weights_path checkpoints --result_path Result --val_image_path image.tif --val_label_path label.tif
+```
 
 
 
