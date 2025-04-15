@@ -1,0 +1,71 @@
+﻿entity,attribute,value
+Bare land,Spectral Characteristics,"High reflectance in the red and near-infrared band, low reflectance in the shortwave infrared band"
+Bare land,shape,planar
+Bare land,color,light brown
+Bare land,Vegetation Index,Low NDVI value
+Bare land,Texture,roughness
+Bare land,Reflectance,High reflectance
+Bare land,shape,planar
+Bare land,color,light brown
+Cloud,shape,irregular
+Cloud,color,white
+Huanghe River,shape,strip
+Huanghe River,color,brown
+Pond,Flow Pattern,Stable
+Pond,Water Depth,1.6-2.0 meters
+Pond,pH Value,7-8.5
+Pond,shape,planar
+Pond,color,blue
+Pond,Flow Velocity,Slow or stagnant
+Pond,shape,planar
+Pond,color,blue
+Reed,Height,1-8 meters
+Reed,shape,irregular
+Reed,color,golden yellow
+Reed,Coverage,85%～98%
+Reed,Habitat,"River,Pond,Wetland"
+Reed,Life Form,Perennial herb
+Reed,Phenological Period,Flowering and fruiting period from July to November
+Reed,shape,irregular
+Reed,color,dark green
+River,Water Quality,Clear
+River,Spectral Characteristics,"Low reflectance in the near-infrared band, high reflectance in the shortwave infrared band"
+River,shape,strip
+River,color,blue
+River,Alluvial Layer Thickness,Tens of meters
+River,Water Body Edge,Clear edge
+River,Riverbed Gradient,Gentle
+River,shape,strip
+River,color,blue
+Sea,Density,1.022-1.028 grams per cubic centimeter
+Sea,pH Value,8.0-8.5
+Sea,Average Water Depth,18 meters
+Sea,Maximum Water Depth,85 meters
+Sea,shape,planar
+Sea,color,dark blue
+Sea,shape,planar
+Sea,color,dark blue
+Seagrass bed,shape,irregular
+Seagrass bed,color,green
+Spartina alterniflora,shape,irregular
+Spartina alterniflora,color,yellow
+Spartina alterniflora,Life Form,Perennial herb
+Spartina alterniflora,Habitat,Coastal mudflats
+Spartina alterniflora,Height,1-3 meters
+Spartina alterniflora,Phenological Period,Flowering and fruiting period from May to October
+Spartina alterniflora,shape,irregular
+Spartina alterniflora,color,light green
+Suaeda salsa,Height,20-80cm
+Suaeda salsa,Habitat,Saline-alkali land
+Suaeda salsa,shape,irregular
+Suaeda salsa,color,red
+Suaeda salsa,Life Form,Annual herb
+Suaeda salsa,Phenological Period,Flowering and fruiting period from July to October
+Suaeda salsa,shape,irregular
+Suaeda salsa,shape,irregular
+Suaeda salsa,color,light green
+Suaeda salsa,color,red
+Tamarix mixed area,shape,irregular
+Tamarix mixed area,color,golden-orange
+Tidal flat,shape,planar
+Tidal flat,color,tan

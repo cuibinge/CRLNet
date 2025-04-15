@@ -1,0 +1,32 @@
+﻿head,relation,tail
+Bare land,touches,Suaeda salsa
+Pond,disjoint,Sea
+Pond,disjoint,Spartina alterniflora
+Pond,touches,Reed
+Reed,disjoint,Seagrass bed
+Reed,touches,Tamarix mixed area
+Huanghe River,touches,Reed
+Reed,disjoint,Sea
+River,touches,Reed
+River,disjoint,Spartina alterniflora
+River,disjoint,Bare land
+River,disjoint,Pond
+Sea,disjoint,Huanghe River
+Sea,disjoint,Bare land
+Seagrass bed,touches,Sea
+Seagrass bed,touches,Spartina alterniflora
+Seagrass bed,disjoint,Huanghe River
+Seagrass bed,disjoint,Pond
+Spartina alterniflora,disjoint,Huanghe River
+Spartina alterniflora,touches,Sea
+Suaeda salsa,touches,Tidal flat
+Suaeda salsa,touches,Tamarix mixed area
+Suaeda salsa,touches,Pond
+Suaeda salsa,touches,Spartina alterniflora
+Suaeda salsa,touches,Reed
+Suaeda salsa,disjoint,Seagrass bed
+Suaeda salsa,disjoint,Sea
+Tamarix mixed area,disjoint,Sea
+Tamarix mixed area,disjoint,Seagrass bed
+Tidal flat,touches,Sea
+Tidal flat,touches,Pond
